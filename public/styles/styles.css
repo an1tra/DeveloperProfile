@@ -17,6 +17,12 @@ section {
     
   }
 
+  section h4 {
+    color: red;
+    margin: 0 auto;
+    text-align: center;
+  }
+
   section p {
     line-height: 30px;
     text-indent: 50px;
