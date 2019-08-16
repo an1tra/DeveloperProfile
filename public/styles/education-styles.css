@@ -1,0 +1,24 @@
+
+
+section {
+    width: 80%;
+    float: right;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Source Code Pro', monospace;
+}
+
+section h2 {
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 25%;
+    position: absolute;
+    left: 25%;
+    text-align: center;
+
+}
+
+
