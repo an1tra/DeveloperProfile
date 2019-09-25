@@ -1,3 +1,9 @@
+header h1 {
+    width: 100%;
+    position: fixed;
+    left: -20px;
+  }
+
 section {
     width: 80%;
     float: right;

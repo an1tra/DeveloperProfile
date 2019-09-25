@@ -1,11 +1,14 @@
-
+header h1 {
+  width: 100%;
+  position: fixed;
+  left: -20px;
+}
 
 section {
     width: 70%;
     margin: 0 auto;
-    float: left;
+    float: center;
     padding: 15px;
-
     
   }
 
