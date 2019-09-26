@@ -90,6 +90,8 @@ div.nav-container ul li a:hover {
   header {
     width: 80%;
     height: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
   }
   div.nav-container ul {
     float: none;
