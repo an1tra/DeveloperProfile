@@ -38,9 +38,16 @@ div.github a img {
   height: 75px;
 }
 
-div.github {
+div.contact {
   margin: 0 auto;
+  width: 100%;
+  text-align: center;
   clear: both;
+}
+
+div.contact a {
+  font-family: 'Source Code Pro', monospace;
+  color: black;
 }
 
 @media screen and (max-width: 980px) {
