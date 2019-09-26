@@ -87,7 +87,10 @@ div.nav-container ul li a:hover {
   }
 }
 @media screen and (max-width: 640px) {
-
+  header {
+    width: 80%;
+    height: 80%;
+  }
   div.nav-container ul {
     float: none;
     margin: 0 auto;
