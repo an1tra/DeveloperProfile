@@ -5,7 +5,9 @@ header h1 {
 }
 
 section {
+    overflow: auto;
     width: 70%;
+    height: 70%;
     margin: 0 auto;
     float: center;
     padding: 15px;
@@ -24,15 +26,22 @@ section {
     color: red;
     margin: 0 auto;
     text-align: center;
+    border: 1px solid blue;
   }
 
-  section p {
+  .content {
+    width: 70%;
+    height: 50%;
+    padding: 5%;
     line-height: 30px;
     text-indent: 50px;
-    width: 75%;
-    margin-left: 10%;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
     text-align: justify;
     font-family: "Source Code Pro", monospace;
+    
+
   }
 
 
