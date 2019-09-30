@@ -1,16 +1,17 @@
 // Dependencies
-var express = require("express");
-var bodyParser = require("body-parser");
+const express = require("express");
+const bodyParser = require("body-parser");
+const request = require("request");
 
 // Setting up port
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 // Initialize Express
-var app = express();
+const app = express();
 
 // Creating express app and configuring middleware 
 //needed to read through our public folder
-app.use(bodyParser.urlencoded({ extended: false })); //For body parser
+app.use(bodyParser.urlencoded({ extended: true })); //For body parser
 app.use(bodyParser.json());
 app.use(express.static("public"));
 
@@ -28,6 +29,8 @@ app.listen(PORT, function() {
 
 
   module.exports = app;
+
+
 
 
 

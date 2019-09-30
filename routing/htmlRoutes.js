@@ -45,5 +45,15 @@ module.exports = function(app) {
         }
     
       });
+      // app.post("/contact", function(req, res) {
+      //   let name = req.body.name;
+      //   let email = req.body.email;
+      //   let subject = req.body.subject;
+      //   let message = req.body.message;
+
+      //   console.log(name, email, subject, message);
+
+
+      // });
 
     };
